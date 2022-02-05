@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `Jodie`,
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
-    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://jodie.lekoarts.de`,
-    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    siteTitle: `Orange Surf`,
+    siteTitleAlt: `Orange Surf - Bitcoin & Product Design`,
+    siteHeadline: `Orange Surf`,
+    siteUrl: `https://orange.surf`,
+    siteDescription: `Bitcoin & Product Design.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@orangesurfBTC`,
   },
   plugins: [
     {
@@ -23,7 +23,7 @@ module.exports = {
       options: {
         navigation: [
           { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
+          { name: `Reviews`, slug: `/reviews` },
           { name: `About`, slug: `/about` },
         ],
       },
@@ -58,18 +58,18 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#b75e09`,
         display: `standalone`,
-        icons: [
-          {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
+        // icons: [
+        //   {
+        //     src: `/android-chrome-192x192.png`,
+        //     sizes: `192x192`,
+        //     type: `image/png`,
+        //   },
+        //   {
+        //     src: `/android-chrome-512x512.png`,
+        //     sizes: `512x512`,
+        //     type: `image/png`,
+        //   },
+        // ],
       },
     },
     `gatsby-plugin-gatsby-cloud`,
